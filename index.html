@@ -1,0 +1,213 @@
+<html>
+    <head>
+        <title></title>
+        <meta content="device-width, initial-scale=1" name="viewport">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <!-- Header -->
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <p class="navbar-brand">e!</p>
+                <form class="d-flex">
+                    <button type="button" class="btn btn-link">Login</button>
+                    <button class="btn btn-outline-success" type="submit">Create an Account</button>
+                </form>
+            </div>
+        </nav>
+        <p class="h1 bf-header">Breakfast Places in India</p>
+
+        <!-- Hidden Panel -->
+        <div class="Search-Bar hidden-data">
+            <select name="Filter/Sort" class="Filter-Bar form-select">
+                <option value="1"> Filters / Sort</option>
+                <option value="2">Filter</option>
+                <option value="3">Sort</option>
+            </select>
+        </div>
+        
+        <!-- container -->
+        <div class="row Parent-Container">
+
+            <!-- Left Side Panel -->
+            <div class="col shadow col-lg-2 col-md-2 col-sm-9 left-side-panel">
+                <h2 class="h2">Filters</h2>
+
+                <p class="location heading-style">Select Location</p>
+                <select class="form-select">
+                    <option selected>Select Location</option>
+                    <option value="1">Pune</option>
+                    <option value="2">Mumbai</option>
+                    <option value="3">Banglore</option>
+                    <option value="3">Delhi</option>
+                </select>
+
+                <p class="Cuisine heading-style">Cuisine</p>
+                <div class="Cuisine-Names">
+                    <div class="form-check">
+                        <input type="checkbox" name="food-type" value="North Indian" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="food-type">North Indian</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="food-type" value="South Indian" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="food-type">South Indian</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="food-type" value="Chinese" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="food-type">Chinese</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="food-type" value="Fast Food" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="food-type">Fast Food</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" name="food-type" value="Street Food" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="food-type">Street Food</label>
+                    </div>
+                </div>
+
+                <p class="Cost-For-Two heading-style">Cost For Two</p>
+                <div class="Cost-Container">
+                    <div class="form-check">
+                        <input type="radio" name="CostForTwo" value="1" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="CostForTwo">Less than 500</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="CostForTwo" value="2" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="CostForTwo">500 to 1000</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="CostForTwo" value="3" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="CostForTwo">1000 to 1500</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="CostForTwo" value="4" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="CostForTwo">1500 to 2000</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="CostForTwo" value="5" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="CostForTwo">2000+</label>
+                    </div>
+                </div>
+
+                <p class="Sort heading-style">Sort</p>
+                <div class="Sort-Container">
+                    <div class="form-check">
+                        <input type="radio" name="sorting" value="1" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="sorting">Price low to high</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="sorting" value="2" class="form-check-input Text-Style">
+                        <label class="form-check-label Text-Style" for="sorting">Price high to low</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Side Pannel -->
+            <div class="col col-lg-7 col-md-10 col-sm-9 right-side-panel">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            
+                            <div class="col-md-3 col-6">
+                                <img class="rounded"
+                                    src="C:\Users\user\Desktop\Zomato\Assigment-1(Testing2)\photos\shutterstock_1154073754.png"
+                                    alt="">
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="Shop-Name">The Big chill Cakery</p>
+                                <p class="address-line-1">FORT</p>
+                                <p class="address-line-2">Shop1, Plot D, Samruddhi Complex, Chincholi ...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row ">
+                            <div class="line-break"></div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 col-6">
+                                <p class="item">CUISINES:</p>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="prices">Bakery</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-3 col-6">
+                                <p class="item">COST FOR TWO:</p>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="prices">&#x20b9;700</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 col-6">
+                                <img class="rounded"
+                                    src="C:\Users\user\Desktop\Zomato\Assigment-1(Testing2)\photos\shutterstock_1154073754.png"
+                                    alt="">
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="Shop-Name">The Bake Shop</p>
+                                <p class="address-line-1">FORT</p>
+                                <p class="address-line-2">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="line-break"></div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-3 col-6">
+                                <p class="item">CUISINES:</p>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="prices">Bakery</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-3 col-6">
+                                <p class="item">COST FOR TWO:</p>
+                            </div>
+                            <div class="col-md-9 col-6">
+                                <p class="prices">&#x20b9;700</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page Navigator -->
+                <div class="divPaginator">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                            &#60;
+                        </a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">
+                            &#62;
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

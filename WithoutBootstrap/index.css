@@ -1,0 +1,424 @@
+body{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    width: auto;
+    height: 40px;
+    margin: 0 0 37px;
+    padding: 15px 101px 13px 102px;
+    background-color: #ce0505;
+}
+.Ellipse
+{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 0;
+}
+.e
+{
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 600;
+    color: red;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 40px;
+    
+}
+.nav-right{
+    margin: 0 0 37px 0;
+    padding: 15px 0px 15px 101px;
+}
+.login
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Rectangle {
+    display: inline;
+    width: 181px;
+    height: 46px;
+    margin: 0 0 0 26px;
+    padding: 12px 14px 11px 15px;
+    border-radius: 3px;
+    border: solid 1px #fff;
+}
+
+.Create-an-account
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+} 
+
+.Breakfast-Places-in-Mumbai {
+    margin: 27px 25px 27px 113px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+}
+
+.hidden-data
+{
+    display: none;
+
+}
+
+.left-side-panel{
+  width: auto;
+  height: auto;
+  margin: 27px 45px 8px 113px;
+  padding: 17px 0px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
+.Filters-Container{
+    width: 55px;
+    height: 25px;
+    margin: 0 154px 10px 0;
+}
+.Filters {
+    font-size: 22px;
+    font-weight: 600;
+    color: #192f60;
+}
+.Heading-Container{
+    width: 106px;
+    height: 20px;
+    margin: 10px 102px 10px 1px;
+}
+.heading-style {
+    font-size: 16px;
+    color: #192f60;
+}
+
+.Searchbar{
+    width: 208px;
+    height: 35px;
+    margin: 2px 0 22px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+}
+
+.Text-Style{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 5px 122px 5px 11px;
+    font-size: 14px;
+    color: #8c96ab;
+}
+
+.content-panel{
+    display: flex;
+}
+.food-menu-container
+{
+    margin: 27px 45px 8px 8px;
+    padding: 17px 25px 20px 26px;
+    height: 291px;
+    width:794;
+    min-width:600px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+}
+
+/* @media only screen and (max-width:500px){
+    .food-menu-container
+    {
+        margin:10px;
+        min-width:350px;
+    }
+} */
+
+.food-menu-top{
+    border-bottom: 1px solid #dedfe5;
+}
+
+.food-menu-left
+{
+ width:30%;
+ padding: 22px;
+ vertical-align: top;
+}
+
+img{
+    width:140px;
+    height: 140px;
+    border-radius: 20px;
+}
+
+.food-menu-right
+{
+ padding: 16px;
+}
+.food-header{
+    color: #192f60;
+    margin: 9px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* 
+ Mobile devices  
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .food-header{
+        font-size: 42px;
+        color: red;
+    }
+}
+
+ Tablet devices 
+@media only screen and (min-width:786px){
+    .food-header{
+        font-size: 42px;
+        color: greenyellow;
+    }
+}
+
+ Desktop devices 
+@media only screen and (min-width:1200px){
+    .food-header{
+        font-size: 30px;
+        color: #192f60;
+    }
+} */
+
+.address-line-1{
+    color: #192f60;
+    margin: 9px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.address-line-2{
+    margin: 9px;
+    color: #636f88;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.prices{
+    font-family: monospace;
+    color: #636f88;
+    font-size: 16px;
+}
+
+.td-price{
+    font-size: 16px;
+    font-family: monospace;
+    padding: 24px;
+    padding-left: 82px;
+    color: #192f60;
+}
+
+.float-center{
+    text-align: center;
+    margin: 0 30%;
+}
+
+.divPaginator{
+    display:flex;
+}
+.divPage{
+    border-color: #8c96ab;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+    margin: 10px 10px 10px 10px;
+    padding: 4px 9px 4px 9px; 
+}
+.page
+{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.divPage:hover{
+    background-color: #8c96ab;
+}
+.No_Result_Container
+{
+    margin: 27px 45px 8px 8px;
+    padding: 17px 25px 20px 26px;
+    height: 352px;
+    width:794px;
+    min-width:600px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.No_Result{
+    font-size: 30px;
+    font-weight: bold;
+    color: #192f60;
+    text-align: center;
+    
+}
+@media only screen and (max-width:700px) {
+    .header{
+        padding: 15px 50px 13px 30px;
+        background-color: #ce0505;
+    }
+    .hidden-data
+    {
+        display: block;
+        margin: 5px 0 0 0;
+        width: 100%;
+    }
+    .Filter-Bar{
+        padding: 0px 453px 3px 0;
+        border-radius: 3px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #fff;
+        border: none;
+        height: 53px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.56;
+        color: #192f60;
+    }
+    .nav-right{
+        margin: 0 0 37px 0;
+        padding: 15px 0px 15px auto;
+    }
+    .Breakfast-Places-in-Mumbai {
+        margin: 0;
+        font-size: 22px;
+        font-weight: bold;
+        color: #192f60;
+    }
+    .left-side-panel{
+        display: none;
+    }
+    .food-menu-container
+    {
+        margin: 18px 1px 24px 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }  
+    img{
+        width:70px;
+        height: 70px;
+        border-radius: 10px;
+    }
+
+    .food-menu-right
+    {
+        padding: 0px;
+    }
+    .food-header{
+        margin: 0px;
+        font-size: 20px;
+
+    }
+
+    .address-line-1{
+        margin: 0px;
+         font-size: 12px;
+         font-weight: bold;
+    }
+
+    .address-line-2{
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .prices{
+        font-size: 12px;
+    }
+
+    .td-price{
+        font-size: 12px;
+        font-family: monospace;
+        padding: 10px;
+        padding-left: 50px;
+        color: #192f60;
+    }
+
+    .float-center{
+        margin: 0 10%;
+    }
+    .divPage{
+        border-color: #8c96ab;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 7px;
+        margin: 10px 10px 10px 10px;
+        padding: 4px 9px 4px 9px; 
+    }
+    .No_Result_Container
+    {
+        width: 453px;
+    }
+    .No_Result{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width:453px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: o;
+    }
+    .nav-right{
+        margin: 5px ;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Rectangle {
+        display: inline;
+        width: auto;
+        height: auto;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 3px;
+        border: solid 1px #fff;
+    }
+    
+    .Create-an-account
+    {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+    } 
+    .No_Result_Container
+    {
+        width: auto;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+    }
+    .No_Result{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+@media only screen   
+and (min-device-width : 360px)   
+and (max-device-width : 640px) 
